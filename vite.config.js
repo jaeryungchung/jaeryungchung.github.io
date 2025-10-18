@@ -8,7 +8,7 @@ const ReactCompilerConfig = { /* ... */ };
 
 // Use root base for both dev and user-site deployment (user site serves from root)
 export default defineConfig({
-  base: '/',
+  base: '/jaeryungchung.github.io/',
   // plugins: [react()]
   plugins: [
     react({
