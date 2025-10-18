@@ -1,12 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
-// export default defineConfig({
-//   plugins: [react()],
-// })
-
+// Use root base for both dev and user-site deployment (user site serves from root)
 export default defineConfig({
-  base: '/jaeryungchung.github.io/', // <- 여기에 repo 이름
+  base: '/',
   plugins: [react()]
 })
