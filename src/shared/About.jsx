@@ -14,6 +14,7 @@ export default function About(){
         </p>
         <p>Feel free to <a href="#contact">contact me</a> for a coffee chat ☕</p>
       </motion.div>
-    </section>
+    </section >
   )
 }
+
