@@ -22,7 +22,7 @@ const repoName = '/jaeryungchung.github.io/'
 // })
 export default defineConfig({
   // ✅ base 경로를 루트(/)로 설정
-  base: "/", 
+  base: '/',
   plugins: [react()],
 });
 
