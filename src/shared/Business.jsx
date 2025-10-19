@@ -6,7 +6,7 @@ export default function Business(){
       <h2>Field Business</h2>
       <div className="media-block">
         <div className="media-thumb">
-          <iframe src="https://www.youtube.com/embed/WBKB2V8waNU" title="SXSW 2025 Booth" frameBorder="0" allowFullScreen />
+          <iframe src="https://youtu.be/oexXZR-3hmQ" title="SXSW 2025 Booth" frameBorder="0" allowFullScreen />
         </div>
         <div className="media-text">
           <h3>SXSW 2025 Booth Management</h3>
