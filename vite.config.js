@@ -7,38 +7,8 @@ const ReactCompilerConfig = { /* ... */ };
 const repoName = '/jaeryungchung.github.io/'
 
 
-// Use root base for both dev and user-site deployment (user site serves from root)
-// export default defineConfig({
-//   // base: '/',
-//   // base: mode === 'production' ? repoName : '/',
-//   // plugins: [react()]
-//   plugins: [
-//     react({
-//       babel: {
-//         plugins: ['babel-plugin-react-compiler'],
-//       },
-//     }),
-//   ],
-// })
 export default defineConfig({
   // ✅ base 경로를 루트(/)로 설정
   base: '/',
   plugins: [react()],
 });
-
-// export default defineConfig({
-//   base: '/',
-
-//   plugins: [
-//     reactRouter(),
-//     babel({
-//       filter: /\.[jt]sx?$/,
-//       babelConfig: {
-//         presets: ["@babel/preset-typescript"], // if you use TypeScript
-//         plugins: [
-//           ["babel-plugin-react-compiler", ReactCompilerConfig],
-//         ],
-//       },
-//     }),
-//   ],
-// });
