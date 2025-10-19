@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import jaeryungjungImage from '../assets/jaeryungchung.png'
 
 export default function Header(){
   return (
     <div className="header-inner">
       <div className="header-left" style={{display:'flex',alignItems:'center',gap:12}}>
-        <a href="/"><img src="/src/assets/logo-trans.png" alt="logo" className="logo"/></a>
+        <a href="/"><img src={jaeryungjungImage} alt="logo" className="logo"/></a>
         <div style={{fontFamily:'Instrument Serif',fontSize:18}}>Jaeryung Chung</div>
       </div>
       <nav className="nav">
