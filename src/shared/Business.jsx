@@ -17,7 +17,7 @@ export default function Business(){
 
       <div className="media-block">
         <div className="media-thumb">
-          <iframe src="https://youtu.be/oexXZR-3hmQ?si=6l0xnO5wZ2v0zNrg" title="CES 2024 Booth" frameBorder="0" allowFullScreen />
+          <iframe src="https://youtu.be/oexXZR-3hmQ" title="CES 2024 Booth" frameBorder="0" allowFullScreen />
         </div>
         <div className="media-text">
           <h3>CES 2024 Mingle AI Booth Management</h3>
