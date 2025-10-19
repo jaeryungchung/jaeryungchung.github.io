@@ -17,7 +17,7 @@ export default function Business(){
 
       <div className="media-block">
         <div className="media-thumb">
-          <iframe src="https://youtu.be/oexXZR-3hmQ" title="CES 2024 Booth" frameBorder="0" allowFullScreen />
+          <iframe src="https://youtu.be/oexXZR-3hmQ" title="SXSW 2025 Booth" frameBorder="0" allowFullScreen />
         </div>
         <div className="media-text">
           <h3>CES 2024 Mingle AI Booth Management</h3>
@@ -28,10 +28,10 @@ export default function Business(){
 
       <div className="media-block">
         <div className="media-thumb">
-          <iframe src="https://youtu.be/0jr1cWUAZIQ" title="Worked as CoS (Chief of Staff) at KAI Inc." frameBorder="0" allowFullScreen />
+          <iframe src="https://youtu.be/0jr1cWUAZIQ" title="SXSW 2025 Booth" frameBorder="0" allowFullScreen />
         </div>
         <div className="media-text">
-          <h3>CES 2024 Mingle AI Booth Management</h3>
+          <h3>Worked as CoS (Chief of Staff) at KAI Inc.</h3>
           <p>📍 Seoul/Daejeon, Republic of Korea 🇰🇷</p>
           <p>Role: Ran global and domestic business meetings for collaboration opportunities and sales.</p>
         </div>
