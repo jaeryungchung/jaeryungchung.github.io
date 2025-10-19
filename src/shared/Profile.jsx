@@ -1,6 +1,12 @@
 import React, {useState, useRef} from 'react'
+import profile1 from '../assets/profile/profile-1.jpg'
+import profile2 from '../assets/profile/profile-2.jpg'
+import profile3 from '../assets/profile/profile-3.jpg'
+import profile4 from '../assets/profile/profile-4.jpg'
+import profile5 from '../assets/profile/profile-5.jpg'
+import profile6 from '../assets/profile/profile-6.jpg'
 
-const IMAGES = Array.from({length:6}).map((_,i)=>`/src/assets/profile/profile-${i+1}.jpg`)
+const IMAGES = [profile1, profile2, profile3, profile4, profile5, profile6]
 
 export default function Profile(){
   const [idx,setIdx] = useState(0)

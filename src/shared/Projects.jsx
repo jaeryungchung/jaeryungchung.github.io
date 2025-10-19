@@ -1,4 +1,7 @@
 import React from 'react'
+import evergrowImage from '../assets/evergrow-1.png'
+import seahabPdf from '../assets/SEAhab.pdf'
+import evergrowPdf from '../assets/Evergrow.pdf'
 
 export default function Projects(){
   return (
@@ -22,18 +25,18 @@ export default function Projects(){
         <div className="media-text">
           <h3>SEAhab</h3>
           <p>System design for accessible, personalized rehabilitation with community and real-time intervention.</p>
-          <p><a href="/src/assets/SEAhab.pdf" target="_blank">Project PDF</a></p>
+          <p><a href={seahabPdf} target="_blank">Project PDF</a></p>
         </div>
       </div>
 
       <div className="media-block">
         <div className="media-thumb">
-          <img src="/src/assets/evergrow-1.png" alt="Evergrow" style={{width:'100%'}} />
+          <img src={evergrowImage} alt="Evergrow" style={{width:'100%'}} />
         </div>
         <div className="media-text">
           <h3>Evergrow — Investment Education Service</h3>
           <p>iF Design Award winner. Evergrow empowers beginners to participate in stock management and investment, fostering financial literacy.</p>
-          <p><a href="https://ifdesign.com/en/winner-ranking/project/evergrow-investment-education-service/618273" target="_blank">iF Design Award</a> • <a href="/src/assets/Evergrow.pdf" target="_blank">Project PDF</a></p>
+          <p><a href="https://ifdesign.com/en/winner-ranking/project/evergrow-investment-education-service/618273" target="_blank">iF Design Award</a> • <a href={evergrowPdf} target="_blank">Project PDF</a></p>
         </div>
       </div>
     </section>

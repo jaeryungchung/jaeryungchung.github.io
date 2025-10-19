@@ -1,4 +1,8 @@
 import React from 'react'
+import whPoster from '../assets/wh-poster.jpg'
+import gcgImage from '../assets/GCG.png'
+import siggraphPhoto from '../assets/siggraph-photo-3.jpeg'
+import ubicompPhoto from '../assets/ubicomp-photo.jpg'
 
 export default function Publications(){
   return (
@@ -6,7 +10,7 @@ export default function Publications(){
       <h2>Publications & Conferences</h2>
       <ul className="pub-list">
         <li className="pub-item">
-          <img className="pub-img" src="/src/assets/wh-poster.jpg" alt="WrightHere poster"/>
+          <img className="pub-img" src={whPoster} alt="WrightHere poster"/>
           <div className="pub-text">
             <h3>ACM SIGCHI 2025 LBW</h3>
             <p>📍 Yokohama, Japan 🇯🇵</p>
@@ -25,7 +29,7 @@ export default function Publications(){
         </li>
 
         <li className="pub-item">
-          <img className="pub-img" src="/src/assets/GCG.png" alt="GCG"/>
+          <img className="pub-img" src={gcgImage} alt="GCG"/>
           <div className="pub-text">
             <h3>IEEE VIS 2025</h3>
             <p>📍 Vienna, Austria 🇦🇹 See You Soon in November! </p>
@@ -37,7 +41,7 @@ export default function Publications(){
         </li>
 
         <li className="pub-item">
-          <img className="pub-img" src="/src/assets/siggraph-photo-3.jpeg" alt="SIGGRAPH"/>
+          <img className="pub-img" src={siggraphPhoto} alt="SIGGRAPH"/>
           <div className="pub-text">
             <h3>ACM SIGGRAPH 2025</h3>
             <p>📍 Vancouver, Canada 🇨🇦</p>
@@ -46,7 +50,7 @@ export default function Publications(){
         </li>
 
         <li className="pub-item">
-          <img className="pub-img" src="/src/assets/ubicomp-photo.jpg" alt="UbiComp"/>
+          <img className="pub-img" src={ubicompPhoto} alt="UbiComp"/>
           <div className="pub-text">
             <h3>ACM UbiComp / ISWC 2025</h3>
             <p>📍 Espoo, Finland 🇫🇮</p>
