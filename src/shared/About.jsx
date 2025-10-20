@@ -9,7 +9,7 @@ export default function About(){
         <p>
         I believe in the power of <strong>creativity and imagination</strong> that enriches our world. </p>
         <p></p>
-        <p>My current, self-driven research explores Creativity Support Tools (CSTs) powered by Generative AI and Large Language Models, focused on creative writing and choreography generation. I also maintain strong interests in Data Visualization and Ubiquitous Computing.
+        <p>My current, self-driven research explores Creativity Support Tools (CSTs) in HCI powered by Generative AI and Large Language Models, focused on creative writing and choreography generation. I also maintain strong interests in Data Visualization and Ubiquitous Computing.
         </p>
         <p>
           I am a Master's student in the Department of <a href="https://id.kaist.ac.kr/" target="_blank" rel="noopener">Industrial Design</a> at <a href="https://www.kaist.ac.kr/en/" target="_blank" rel="noopener">KAIST</a>, conducting research under Prof. <a href="https://takyeonlee.com/" target="_blank" rel="noopener">Tak Yeon Lee</a> in the <a href="https://ai-experience-lab.github.io/" target="_blank" rel="noopener">AI Experience Lab</a>. I'm exploring PhD opportunities in HCI, and roles in global business and project management.
