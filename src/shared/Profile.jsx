@@ -30,6 +30,8 @@ export default function Profile(){
         Seize the Moment,
         <span className="desktop-break"> Never Miss the Fun</span>
       </p>
+      {/* <p style={{fontSize: 15, paddingTop:30, fontFamily:'Vina Sans'}}>M.S. Industrial Design, KAIST</p> */}
+      {/* <p style={{fontSize: 15, fontFamily:'Vina Sans'}}>B.S. Industrial Design & School of Computing, KAIST</p> */}
     </div>
   )
 }

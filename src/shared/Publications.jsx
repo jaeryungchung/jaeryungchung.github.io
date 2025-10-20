@@ -45,7 +45,7 @@ export default function Publications(){
           <div className="pub-text">
             <h3>ACM SIGGRAPH 2025</h3>
             <p>📍 Vancouver, Canada 🇨🇦</p>
-            <p>Attendee</p>
+            <p style={{marginTop:20}}>✨ The live demos were absolutely thrilling, and I was deeply inspired by the animation, graphics, and promotional showcases. Maybe I’ll aim for a VR demo next year(2026)!</p>
           </div>
         </li>
 
@@ -54,7 +54,7 @@ export default function Publications(){
           <div className="pub-text">
             <h3>ACM UbiComp / ISWC 2025</h3>
             <p>📍 Espoo, Finland 🇫🇮</p>
-            <p>Attendee</p>
+            <p style={{marginTop:20}}>✨ Just returned from UbiComp / ISWC 2025 in Finland 🇫🇮 — an inspiring week of ideas, community, and creativity in ubiquitous computing.</p>
           </div>
         </li>
       </ul>
