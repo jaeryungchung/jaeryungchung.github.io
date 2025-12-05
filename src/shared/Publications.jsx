@@ -32,7 +32,7 @@ export default function Publications(){
           <img className="pub-img" src={gcgImage} alt="GCG"/>
           <div className="pub-text">
             <h3>IEEE VIS 2025</h3>
-            <p>📍 Vienna, Austria 🇦🇹 See You Soon in November! </p>
+            <p>📍 Vienna, Austria 🇦🇹 </p>
             <p><strong>Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity</strong></p>
             <p>Seon Gyeom Kim, Jae Young Choi, Phillip Y. Lee, <strong><em>Jaeryung Chung</em></strong>, Ryan Rossi, Jihyung Kil, Eunyee Koh, and Tak Yeon Lee. </p>
             <a href="https://groundedchartgeneration.github.io/" target="_blank">Project</a>
@@ -54,7 +54,7 @@ export default function Publications(){
           <div className="pub-text">
             <h3>ACM UbiComp / ISWC 2025</h3>
             <p>📍 Espoo, Finland 🇫🇮</p>
-            <p style={{marginTop:20}}>✨ Just returned from UbiComp / ISWC 2025 in Finland 🇫🇮 — an inspiring week of ideas, community, and creativity in ubiquitous computing.</p>
+            <p style={{marginTop:20}}>✨ UbiComp / ISWC 2025 in Finland 🇫🇮 — an inspiring week of ideas, community, and creativity in ubiquitous computing.</p>
           </div>
         </li>
       </ul>
