@@ -13,7 +13,7 @@ export default function Publications(){
         <li className="pub-item">
           <img className="pub-img" src={whPoster} alt="WrightHere poster"/>
           <div className="pub-text">
-            <h3>ACM SIGCHI 2025 LBW</h3>
+            <h3>ACM CHI 2025 LBW</h3>
             <p>📍 Yokohama, Japan 🇯🇵</p>
               <p><strong>WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment</strong></p>
               <p><strong><em>Jaeryung Chung</em></strong>, Seon Gyeom Kim, Tak Yeon Lee. </p>
