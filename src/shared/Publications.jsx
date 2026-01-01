@@ -3,6 +3,7 @@ import whPoster from '../assets/wh-poster.jpg'
 import gcgImage from '../assets/GCG.png'
 import siggraphPhoto from '../assets/siggraph-photo-3.jpeg'
 import ubicompPhoto from '../assets/ubicomp-photo.jpg'
+import vispaper from '../assets/vis25b-sub1326-cam.pdf'
 
 export default function Publications(){
   return (
@@ -35,6 +36,7 @@ export default function Publications(){
             <p>📍 Vienna, Austria 🇦🇹 </p>
             <p><strong>Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity</strong></p>
             <p>Seon Gyeom Kim, Jae Young Choi, Phillip Y. Lee, <strong><em>Jaeryung Chung</em></strong>, Ryan Rossi, Jihyung Kil, Eunyee Koh, and Tak Yeon Lee. </p>
+            <p><a href={vispaper} target="_blank">Paper</a></p>
             <a href="https://groundedchartgeneration.github.io/" target="_blank">Project</a>
           
           </div>
