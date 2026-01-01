@@ -15,7 +15,7 @@ export default function Publications(){
           <div className="pub-text">
             <h3>ACM SIGCHI 2025 LBW</h3>
             <p>📍 Yokohama, Japan 🇯🇵</p>
-              <p><strong>WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment.</strong></p>
+              <p><strong>WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment</strong></p>
               <p><strong><em>Jaeryung Chung</em></strong>, Seon Gyeom Kim, Tak Yeon Lee. </p>
               
               <a href="https://dl.acm.org/doi/10.1145/3706599.3719932" target="_blank">DOI</a>
