@@ -2,6 +2,7 @@ import React from 'react'
 import evergrowImage from '../assets/evergrow-1.png'
 import seahabPdf from '../assets/SEAhab.pdf'
 import evergrowPdf from '../assets/Evergrow.pdf'
+import wrighthereif from '../assets/WrightHere-v8-.pdf'
 
 export default function Projects(){
   return (
@@ -15,7 +16,7 @@ export default function Projects(){
           <h3>CrossingOver: Innovation and Boundaries — KAIST Industrial Design Exhibition</h3>
           <p>📍 Seoul, Republic of Korea 🇰🇷</p>
           <p>Conducted exhibition at KAIST exploring how designers break and reframe boundaries to find new value and drive innovation.</p>
-          <p><a href="https://design.co.kr/young-student/105407" target="_blank">Design+ Online Archive</a></p>
+          <p><a href="https://design.co.kr/young-student/105407" target="_blank">Design+ Online Archive</a> • <a href={wrighthereif} target="_blank">WrightHere ver2 PDF</a></p>
         </div>
       </div>
 
