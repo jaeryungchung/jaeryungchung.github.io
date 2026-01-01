@@ -3,6 +3,10 @@ import evergrowImage from '../assets/evergrow-1.png'
 import seahabPdf from '../assets/SEAhab.pdf'
 import evergrowPdf from '../assets/Evergrow.pdf'
 import wrighthereif from '../assets/WrightHere-v8-.pdf'
+import polylingual from '../assets/polylingual.png'
+import polylingualPdf from '../assets/Polylingual_Co_design_Method.pdf'
+import va from '../assets/va-discussion.png'
+import vaPdf from '../assets/Guess_the_Valence_and_Arousal.pdf'
 
 export default function Projects(){
   return (
@@ -13,7 +17,7 @@ export default function Projects(){
           <iframe src="https://www.youtube.com/embed/zOz2XIO0hb8" title="CrossingOver" frameBorder="0" allowFullScreen />
         </div>
         <div className="media-text">
-          <h3>CrossingOver: Innovation and Boundaries — KAIST Industrial Design Exhibition</h3>
+          <h3>Crossing Over: Innovation and Boundaries — KAIST Industrial Design Exhibition</h3>
           <p>📍 Seoul, Republic of Korea 🇰🇷</p>
           <p>Conducted exhibition at KAIST exploring how designers break and reframe boundaries to find new value and drive innovation.</p>
           <p><a href="https://design.co.kr/young-student/105407" target="_blank">Design+ Online Archive</a> • <a href={wrighthereif} target="_blank">WrightHere ver2 PDF</a></p>
@@ -43,6 +47,32 @@ export default function Projects(){
           <p><a href={seahabPdf} target="_blank">Project PDF</a></p>
         </div>
       </div>
+
+      <div className="media-block">
+        <div className="media-thumb">
+          <img src={va} alt="Valence and Arousal" style={{width:'100%'}} />
+        </div>
+        <div className="media-text">
+          <h3>Guess the Valence and Arousal: Measuring Multimodal LLM Alignment with Human Emotion on Video Stimuli</h3>
+          <p><strong><em>Jaeryung Chung</em></strong>, Yoonjae Oh. </p>
+          <p>Understanding MLLM capability of understanding video context and judge human emotion according to personas, with the use of the Chieti Affective Action Videos (CAAV) dataset and Gemini 2.5 Flash.</p>
+          <p><a href={vaPdf} target="_blank">Project PDF</a></p>
+        </div>
+      </div>
+
+      <div className="media-block">
+        <div className="media-thumb">
+          <img src={polylingual} alt="Polylingual Co-design" style={{width:'100%'}} />
+        </div>
+        <div className="media-text">
+          <h3>Toward Inclusion Beyond Language: Proposing the Polylingual Co-Design Method</h3>
+          <p>Jeonghoon Han, <strong><em>Jaeryung Chung</em></strong>, Alida Gazzotti, Jieon Du. </p>
+          <p>We introduce Polylingual Co-Design, a participatory design method enabling cross-cultural collaboration without shared language.</p>
+          <p><a href={polylingualPdf} target="_blank">Project PDF</a></p>
+        </div>
+      </div>
+
+
     </section>
   )
 }
