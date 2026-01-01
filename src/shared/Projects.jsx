@@ -55,7 +55,7 @@ export default function Projects(){
         <div className="media-text">
           <h3>Guess the Valence and Arousal: Measuring Multimodal LLM Alignment with Human Emotion on Video Stimuli</h3>
           <p><strong><em>Jaeryung Chung</em></strong>, Yoonjae Oh. </p>
-          <p>Understanding MLLM capability of understanding video context and judge human emotion according to personas, with the use of the Chieti Affective Action Videos (CAAV) dataset and Gemini 2.5 Flash.</p>
+          <p>Understanding MLLM capability of assessing video context and predicting human emotion according to personas, with the use of the Chieti Affective Action Videos (CAAV) dataset and Gemini 2.5 Flash.</p>
           <p><a href={vaPdf} target="_blank">Project PDF</a></p>
         </div>
       </div>
