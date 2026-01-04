@@ -13,7 +13,7 @@ export default function Publications(){
         <li className="pub-item">
           <img className="pub-img" src={whPoster} alt="WrightHere poster"/>
           <div className="pub-text">
-            <h3>ACM CHI 2025 LBW</h3>
+            <h3>ACM CHI 2025 Late-Breaking Work</h3>
             <p>📍 Yokohama, Japan 🇯🇵</p>
               <p><strong>WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment</strong></p>
               <p><strong><em>Jaeryung Chung</em></strong>, Seon Gyeom Kim, Tak Yeon Lee. </p>
@@ -32,7 +32,7 @@ export default function Publications(){
         <li className="pub-item">
           <img className="pub-img" src={gcgImage} alt="GCG"/>
           <div className="pub-text">
-            <h3>IEEE VIS 2025</h3>
+            <h3>IEEE VIS 2025 Short Paper</h3>
             <p>📍 Vienna, Austria 🇦🇹 </p>
             <p><strong>Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity</strong></p>
             <p>Seon Gyeom Kim, Jae Young Choi, Phillip Y. Lee, <strong><em>Jaeryung Chung</em></strong>, Ryan Rossi, Jihyung Kil, Eunyee Koh, and Tak Yeon Lee. </p>
