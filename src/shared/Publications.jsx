@@ -57,6 +57,7 @@ export default function Publications(){
             <h3>ACM UbiComp / ISWC 2025</h3>
             <p>📍 Espoo, Finland 🇫🇮</p>
             <p style={{marginTop:20}}>✨ UbiComp / ISWC 2025 in Finland 🇫🇮 — an inspiring week of ideas, community, and creativity in ubiquitous computing.</p>
+            <a href="https://www.linkedin.com/posts/jaeryungchung_ubicomp2025-helsinki-researchcommunity-activity-7385917855831113728-f_99?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEnbGL4B99IuXFmtCf0coHCANyTK_ASSqDc" target="_blank">Video</a>
           </div>
         </li>
       </ul>
