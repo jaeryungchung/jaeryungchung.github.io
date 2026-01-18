@@ -47,8 +47,21 @@ a:hover, a:focus { color: #b24576; text-decoration: underline }
 .section{margin-bottom:48px}
 
 /* Make sure in-page anchors are not hidden behind the fixed header */
-.section, #about, #publications, #business, #projects, #contact {
+.section, #about, #publications, #business, #projects, #education, #contact {
   scroll-margin-top: 96px; /* header height (72) + extra spacing */
+}
+
+/* Education section styles */
+.education-item {
+  margin-bottom: 3rem;
+}
+
+.education-item h3 {
+  margin-bottom: 0.1rem;
+}
+
+.education-item p {
+  margin: 0.2rem 0;
 }
 
 /* Heading font */

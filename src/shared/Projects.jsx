@@ -20,7 +20,7 @@ export default function Projects(){
           <h3>Crossing Over: Innovation and Boundaries — KAIST Industrial Design Exhibition</h3>
           <p>📍 Seoul, Republic of Korea 🇰🇷</p>
           <p>Conducted exhibition at KAIST exploring how designers break and reframe boundaries to find new value and drive innovation.</p>
-          <p><a href="https://design.co.kr/young-student/105407" target="_blank">Design+ Online Archive</a> • <a href={wrighthereif} target="_blank">WrightHere ver2 PDF</a></p>
+          <p><a href="https://design.co.kr/young-student/105407" target="_blank">Design+ Online Archive</a> • <a href={wrighthereif} target="_blank">WrightHere portfolio</a></p>
         </div>
       </div>
 
@@ -32,7 +32,7 @@ export default function Projects(){
           <h3>Evergrow — Investment Education Service</h3>
           <p><strong><em>Jaeryung Chung</em></strong>, Jamie Ashley Dee, Minseo Bang, Zofia Marciniak, Eunseo Oh, Hyeonjeong Im, Sunok Lee, Sangsu Lee. </p>
           <p>iF Design Award winner. Evergrow empowers beginners to participate in stock management and investment, fostering financial literacy.</p>
-          <p><a href="https://ifdesign.com/en/winner-ranking/project/evergrow-investment-education-service/618273" target="_blank">iF Design Award</a> • <a href={evergrowPdf} target="_blank">Project PDF</a></p>
+          <p><a href="https://ifdesign.com/en/winner-ranking/project/evergrow-investment-education-service/618273" target="_blank">iF Design Award</a> • <a href={evergrowPdf} target="_blank">Project portfolio</a></p>
         </div>
       </div>
 
@@ -44,7 +44,7 @@ export default function Projects(){
           <h3>SEAhab: Welcoming Virtual Rehab Community for Drug Users</h3>
           <p><strong><em>Jaeryung Chung</em></strong>, Donggun Lee, Sohwi Son, Maida Aizaz, Yujin Kwon, Tak Yeon Lee. </p>
           <p>System design for accessible, personalized rehabilitation with community and real-time intervention.</p>
-          <p><a href={seahabPdf} target="_blank">Project PDF</a></p>
+          <p><a href={seahabPdf} target="_blank">Project portfolio</a></p>
         </div>
       </div>
 
@@ -56,7 +56,7 @@ export default function Projects(){
           <h3>Guess the Valence and Arousal: Measuring Multimodal LLM Alignment with Human Emotion on Video Stimuli</h3>
           <p><strong><em>Jaeryung Chung</em></strong>, Yoonjae Oh. </p>
           <p>Understanding MLLM capability of assessing video context and predicting human emotion according to personas, with the use of the Chieti Affective Action Videos (CAAV) dataset and Gemini 2.5 Flash.</p>
-          <p><a href={vaPdf} target="_blank">Project PDF</a></p>
+          <p><a href={vaPdf} target="_blank">Project paper</a></p>
         </div>
       </div>
 
@@ -68,7 +68,7 @@ export default function Projects(){
           <h3>Toward Inclusion Beyond Language: Proposing the Polylingual Co-Design Method</h3>
           <p>Jeonghoon Han, <strong><em>Jaeryung Chung</em></strong>, Alida Gazzotti, Jieon Du. </p>
           <p>We introduce Polylingual Co-Design, a participatory design method enabling cross-cultural collaboration without shared language.</p>
-          <p><a href={polylingualPdf} target="_blank">Project PDF</a></p>
+          <p><a href={polylingualPdf} target="_blank">Project paper</a></p>
         </div>
       </div>
 

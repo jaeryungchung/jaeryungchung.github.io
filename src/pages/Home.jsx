@@ -6,6 +6,7 @@ import Video from '../shared/Video'
 import Publications from '../shared/Publications'
 import Projects from '../shared/Projects'
 import Business from '../shared/Business'
+import Education from '../shared/Education'
 import Contact from '../shared/Contact'
 import Footer from '../shared/Footer'
 
@@ -24,6 +25,7 @@ export default function Home(){
             <Publications/>
             <Business/>
             <Projects/>
+            <Education/>
             <Contact/>
             {/* <Footer/> */}
           </main>

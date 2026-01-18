@@ -9,12 +9,13 @@ export default function About(){
         <p>
         I believe in the power of <strong>creativity and imagination</strong> that enriches our world. </p>
         <p></p>
-        <p>My current, self-driven research explores Creativity Support Tools (CSTs) in HCI powered by Generative AI and Large Language Models, focused on creative writing and choreography generation. I also maintain strong interests in Data Visualization and Ubiquitous Computing.
+        <p>My current self-driven motivation explores creativity support tools (CSTs) in HCI powered by generative AI and data visualization, focused on creative writing and dance choreography. I am a Master's student in the Department of <a href="https://id.kaist.ac.kr/" target="_blank" rel="noopener">Industrial Design</a> at <a href="https://www.kaist.ac.kr/en/" target="_blank" rel="noopener">KAIST</a>, conducting research under Prof. <a href="https://takyeonlee.com/" target="_blank" rel="noopener">Tak Yeon Lee</a> in the <a href="https://ai-experience-lab.github.io/" target="_blank" rel="noopener">AI Experience Lab</a>. 
+          {/* I also crave to be creative myself through various projects, hobby as a content creator, and my research process. */}
         </p>
         <p>
-          I am a Master's student in the Department of <a href="https://id.kaist.ac.kr/" target="_blank" rel="noopener">Industrial Design</a> at <a href="https://www.kaist.ac.kr/en/" target="_blank" rel="noopener">KAIST</a>, conducting research under Prof. <a href="https://takyeonlee.com/" target="_blank" rel="noopener">Tak Yeon Lee</a> in the <a href="https://ai-experience-lab.github.io/" target="_blank" rel="noopener">AI Experience Lab</a>. I am open to work in global firms for business, marketing or project management roles, also seeking research intern opportunities in HCI.
+          I am seeking internship opportunities at global firms in UX research, design, project management, or marketing. With a multidisciplinary background spanning business, interaction design, and content creation, I am ready to contribute diverse perspectives and drive meaningful results.
         </p>
-        <p>Feel free to <a href="#contact">contact me</a> for a coffee chat ☕</p>
+        <p>Feel free to contact me for a <a href="#contact">coffee chat ☕ </a>  for any inquiries.</p>
       </motion.div>
     </section >
   )

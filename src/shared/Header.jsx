@@ -44,6 +44,7 @@ export default function Header() {
           <a href="#publications">Publication</a>
           <a href="#business">Business</a>
           <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
           <a href="#contact">Contact</a>
         </nav>
       </div>
