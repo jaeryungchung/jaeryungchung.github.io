@@ -13,6 +13,10 @@ html { scroll-behavior: smooth; overflow-y: scroll; scrollbar-gutter: stable bot
 a, a:visited { color: #d96b9c; text-decoration: none; font-weight: 600 }
 a:hover, a:focus { color: #b24576; text-decoration: underline }
 
+/* Document links (CV, Portfolio) with black bold styling */
+a.document-link, a.document-link:visited { color: #222222; font-weight: 700 }
+a.document-link:hover, a.document-link:focus { color: #000000; text-decoration: underline }
+
 /* Header fixed layout */
 .site{display:flex;min-height:100%;max-width:1400px;margin:0 auto;width:100%;position:relative}
 .header-wrapper{position:fixed;top:0;left:0;right:0;height:72px;padding:12px 32px;z-index:40}
