@@ -12,6 +12,19 @@ import profile9 from '../assets/profile/profile-9.jpg'
 
 const IMAGES = [profile1, profile2, profile3, profile4, profile5, profile6, profile7, profile8, profile9]
 
+// 각 이미지에 대응하는 색상
+const COLORS = [
+  '#6ba3d9', // profile1
+  '#a36bd9', // profile2
+  '#65b1c6ff', // profile3
+  '#d9a36b', // profile4
+  '#a36bd9', // profile5
+  '#a09494ff', // profile6
+  '#324353ff', // profile7
+  '#6bc57bff', // profile8
+  '#ff9d76ff'  // profile9
+]
+
 export default function Profile(){
   const [idx,setIdx] = useState(0)
   const hoverRef = useRef(false)
@@ -22,13 +35,32 @@ export default function Profile(){
 
   return (
     <div style={{textAlign:'center'}}>
-      <img
-        src={IMAGES[idx]}
-        alt="profile"
-        className="profile-photo"
-        onMouseEnter={()=>{hoverRef.current=true; next()}}
-        onClick={next}
-      />
+      <div style={{position:'relative', display:'inline-block'}}>
+        <img
+          src={IMAGES[idx]}
+          alt="profile"
+          className="profile-photo"
+          onMouseEnter={()=>{hoverRef.current=true; next()}}
+          onClick={next}
+        />
+        <svg 
+          style={{position:'absolute', top:'-15px', left:'-15px', width:'150px', height:'150px', pointerEvents:'none'}}
+          viewBox="0 0 150 150"
+        >
+          <defs>
+            <path 
+              id="circlePath" 
+              d="M 75,75 m -65,0 a 65,65 0 1,1 130,0 a 65,65 0 1,1 -130,0"
+              fill="none"
+            />
+          </defs>
+          <text style={{fontSize:'12px', fontWeight:'600', fill:COLORS[idx], letterSpacing:'1.5px'}}>
+            <textPath href="#circlePath" startOffset="1%">
+              Tab Here!
+            </textPath>
+          </text>
+        </svg>
+      </div>
       <h2 style={{fontFamily:'Instrument Serif'}}>Jaeryung Chung</h2>
       <p style={{fontFamily:'IBM Plex Mono'}}>
         Seize the Moment,
