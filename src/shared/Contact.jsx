@@ -1,5 +1,4 @@
 import React from 'react'
-import cvPdf from '../assets/cv-20251011.pdf'
 import cv from '../assets/JaeryungChung_Resume_20260121.pdf'
 
 export default function Contact(){
