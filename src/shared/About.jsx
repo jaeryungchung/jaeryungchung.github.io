@@ -7,7 +7,8 @@ export default function About(){
       <motion.h2 initial={{opacity:0,y:8}} animate={{opacity:1,y:0}}>About</motion.h2>
       <motion.div initial={{opacity:0}} whileInView={{opacity:1}} viewport={{once:true}}>
         <p>
-        I believe in the power of <strong>creativity and imagination</strong> that enriches our world. </p>
+        Hello! I am a <strong>Full-Stack System Designer</strong> bridging the magic of creativity and the rigor of technical feasibility.</p>
+        {/* I believe in the power of <strong>creativity and imagination</strong> that enriches our world. </p> */}
         <p></p>
         <p>My current self-driven motivation explores creativity support tools (CSTs) in HCI powered by generative AI and data visualization, focused on creative writing and dance choreography. I am a Master's student in the Department of <a href="https://id.kaist.ac.kr/" target="_blank" rel="noopener">Industrial Design</a> at <a href="https://www.kaist.ac.kr/en/" target="_blank" rel="noopener">KAIST</a>, conducting research under Prof. <a href="https://takyeonlee.com/" target="_blank" rel="noopener">Tak Yeon Lee</a> in the <a href="https://ai-experience-lab.github.io/" target="_blank" rel="noopener">AI Experience Lab</a>. 
           {/* I also crave to be creative myself through various projects, hobby as a content creator, and my research process. */}
