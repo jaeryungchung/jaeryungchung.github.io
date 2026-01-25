@@ -1,5 +1,5 @@
 import React from 'react'
-import cv from '../assets/JaeryungChung_Resume_20260121.pdf'
+import cv from '../assets/JaeryungChung_Resume_20260125.pdf'
 import portfolio from '../assets/JaeryungChung_portfolio_0120_.pdf'
 
 export default function Contact(){
