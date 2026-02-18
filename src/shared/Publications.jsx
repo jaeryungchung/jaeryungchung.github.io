@@ -36,7 +36,7 @@ export default function Publications(){
             <p>📍 Vienna, Austria 🇦🇹 </p>
             <p><strong>Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity</strong></p>
             <p>Seon Gyeom Kim, Jae Young Choi, Phillip Y. Lee, <strong><em>Jaeryung Chung</em></strong>, Ryan Rossi, Jihyung Kil, Eunyee Koh, and Tak Yeon Lee. </p>
-            <p><a href={vispaper} target="_blank">Paper</a></p>
+            <p><a href="https://ieeexplore.ieee.org/document/11298836" target="_blank">DOI</a></p>
             <a href="https://groundedchartgeneration.github.io/" target="_blank">Project</a>
           
           </div>
