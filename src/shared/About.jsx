@@ -1,5 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import cv from '../assets/CV_JaeryungChung_20250218.pdf'
+import portfolio from '../assets/JaeryungChung_portfolio_0120_.pdf'
 
 export default function About(){
   return (
@@ -17,6 +19,7 @@ export default function About(){
           I am seeking internship opportunities at global firms in UX research, design, project management, or marketing. With a multidisciplinary background spanning business, interaction design, and content creation, I am ready to contribute diverse perspectives and drive meaningful results.
         </p>
         <p>Feel free to contact me for a <a href="#contact">coffee chat ☕ </a>  for any inquiries.</p>
+        <p style={{marginTop: '1.5rem'}} ><a href={cv} target="_blank" className="document-link">CV PDF</a> • <a href={portfolio} target="_blank" className="document-link">Portfolio PDF</a></p>
       </motion.div>
     </section >
   )
