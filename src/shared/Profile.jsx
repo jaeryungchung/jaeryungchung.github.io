@@ -8,21 +8,26 @@ import profile6 from '../assets/profile/profile-6.jpg'
 import profile7 from '../assets/profile/profile-7.jpg'
 import profile8 from '../assets/profile/profile-8.jpg'
 import profile9 from '../assets/profile/profile-9.jpg'
+import profile10 from '../assets/profile/profile-10.jpg'
 
 
-const IMAGES = [profile1, profile2, profile3, profile4, profile5, profile6, profile7, profile8, profile9]
+// const IMAGES = [profile1, profile2, profile3, profile4, profile5, profile6, profile7, profile8, profile9]
+// const IMAGES = [profile1, profile10, profile2, profile4, profile7]
+const IMAGES = [profile1, profile10]
+
 
 // 각 이미지에 대응하는 색상
 const COLORS = [
   '#6ba3d9', // profile1
-  '#a36bd9', // profile2
-  '#65b1c6ff', // profile3
-  '#d9a36b', // profile4
-  '#a36bd9', // profile5
-  '#a09494ff', // profile6
-  '#324353ff', // profile7
-  '#6bc57bff', // profile8
-  '#ff9d76ff'  // profile9
+  '#ff9d76ff',  // profile10
+  // '#a36bd9', // profile2
+  // '#65b1c6ff', // profile3
+  // '#d9a36b', // profile4
+  // '#a36bd9', // profile5
+  // '#a09494ff', // profile6
+  // '#324353ff', // profile7
+  // '#6bc57bff', // profile8
+  
 ]
 
 export default function Profile(){
