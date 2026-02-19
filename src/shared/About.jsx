@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import cv from '../assets/CV_JaeryungChung_20250218.pdf'
-import portfolio from '../assets/Portfolio_JaeryungChung_8.pdf'
+import portfolio from '../assets/Portfolio_JaeryungChung_6.pdf'
 
 export default function About(){
   return (
