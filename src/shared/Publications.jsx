@@ -3,7 +3,7 @@ import whPoster from '../assets/wh-poster.jpg'
 import gcgImage from '../assets/GCG.png'
 import siggraphPhoto from '../assets/siggraph-photo-3.jpeg'
 import ubicompPhoto from '../assets/ubicomp-photo.jpg'
-import vispaper from '../assets/vis25b-sub1326-cam.pdf'
+// import vispaper from '../assets/vis25b-sub1326-cam.pdf'
 
 export default function Publications(){
   return (
