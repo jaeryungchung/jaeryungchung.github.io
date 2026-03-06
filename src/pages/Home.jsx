@@ -21,7 +21,7 @@ export default function Home(){
           </aside>
           <main className="main">
             <About/>
-            <Video/>
+            {/* <Video/> */}
             <Publications/>
             <Business/>
             <Projects/>
