@@ -4,17 +4,20 @@ import gcgImage from '../assets/GCG.png'
 import siggraphPhoto from '../assets/siggraph-photo-3.jpeg'
 import ubicompPhoto from '../assets/ubicomp-photo.jpg'
 // import vispaper from '../assets/vis25b-sub1326-cam.pdf'
+import ahs from '../assets/ahs-1.jpeg'
+import whteaser from '../assets/teaser.png'
+import har from '../assets/har-1.jpeg'
 
 export default function Publications(){
   return (
     <section className="section" id="publications">
-      <h2>Publications & Conferences</h2>
+      <h2>Publications</h2>
       <ul className="pub-list">
         <li className="pub-item">
           <img className="pub-img" src={whPoster} alt="WrightHere poster"/>
           <div className="pub-text">
             <h3>ACM CHI 2025 Late-Breaking Work</h3>
-            <p>📍 Yokohama, Japan 🇯🇵</p>
+            {/* <p>📍 Yokohama, Japan 🇯🇵</p> */}
               <p><strong>WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment</strong></p>
               <p><strong><em>Jaeryung Chung</em></strong>, Seon Gyeom Kim, Tak Yeon Lee. </p>
               
@@ -33,7 +36,7 @@ export default function Publications(){
           <img className="pub-img" src={gcgImage} alt="GCG"/>
           <div className="pub-text">
             <h3>IEEE VIS 2025 Short Paper</h3>
-            <p>📍 Vienna, Austria 🇦🇹 </p>
+            {/* <p>📍 Vienna, Austria 🇦🇹 </p> */}
             <p><strong>Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity</strong></p>
             <p>Seon Gyeom Kim, Jae Young Choi, Phillip Y. Lee, <strong><em>Jaeryung Chung</em></strong>, Ryan Rossi, Jihyung Kil, Eunyee Koh, and Tak Yeon Lee. </p>
             <p><a href="https://ieeexplore.ieee.org/document/11298836" target="_blank">DOI</a></p>
@@ -43,23 +46,21 @@ export default function Publications(){
         </li>
 
         <li className="pub-item">
-          <img className="pub-img" src={siggraphPhoto} alt="SIGGRAPH"/>
+          <img className="pub-img" src={har} alt="har"/>
           <div className="pub-text">
-            <h3>ACM SIGGRAPH 2025</h3>
-            <p>📍 Vancouver, Canada 🇨🇦</p>
-            <p style={{marginTop:20}}>✨ The live demos were absolutely thrilling, and I was deeply inspired by the animation, graphics, and promotional showcases. Maybe I’ll aim for a VR demo this year!</p>
+            <h3>IEEE PacificVis 2026</h3>
+            {/* <p>📍 Vancouver, Canada 🇨🇦</p> */}
+            <p><strong>Evaluating Visual Prompts with Eye-Tracking Data for MLLM-Based Human Activity Recognition</strong></p>
+            <p>Jae Young Choi, Seon Gyeom Kim, Hyungjun Yoon, Taeckyung Lee, Donggun Lee, <strong><em>Jaeryung Chung</em></strong>, Jihyung Kil, Ryan Rossi, Sung-Ju Lee, and Tak Yeon Lee.</p>
+            <p><a href="https://ieeexplore.ieee.org/document/11559130" target="_blank">DOI</a></p>
+            <a href="https://eyetrackingvisualprompts.github.io/" target="_blank">Project</a>
           </div>
         </li>
 
-        <li className="pub-item">
-          <img className="pub-img" src={ubicompPhoto} alt="UbiComp"/>
-          <div className="pub-text">
-            <h3>ACM UbiComp / ISWC 2025</h3>
-            <p>📍 Espoo, Finland 🇫🇮</p>
-            <p style={{marginTop:20}}>✨ UbiComp / ISWC 2025 in Finland 🇫🇮 — an inspiring week of ideas, community, and creativity in ubiquitous computing.</p>
-            <a href="https://www.linkedin.com/posts/jaeryungchung_ubicomp2025-helsinki-researchcommunity-activity-7385917855831113728-f_99?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEnbGL4B99IuXFmtCf0coHCANyTK_ASSqDc" target="_blank">Video</a>
-          </div>
-        </li>
+
+
+
+
       </ul>
     </section>
   )

@@ -7,11 +7,29 @@ import polylingual from '../assets/polylingual.png'
 import polylingualPdf from '../assets/Polylingual_Co_design_Method.pdf'
 import va from '../assets/va-discussion.png'
 import vaPdf from '../assets/Guess_the_Valence_and_Arousal.pdf'
+import wh from '../assets/wh-if-1.jpg'
+import whPdf from '../assets/WrightHere-v8-.pdf'
 
 export default function Projects(){
   return (
     <section className="section" id="projects">
       <h2>Projects</h2>
+
+      <div className="media-block">
+        <div className="media-thumb">
+          <img src={wh} alt="WrightHere" style={{width:'100%'}} />
+        </div>
+        <div className="media-text">
+          <h3>WrightHere</h3>
+          <p><strong><em>Jaeryung Chung</em></strong>, Sohwi Son, Seon Gyeom Kim, Hyunchul Kim, Tak Yeon Lee. </p>
+          <p>3D-AI platform that supports children's creative writing.</p>
+          <p><a href="https://ifdesign.com/en/winner-ranking/project/wrighthere/764735" target="_blank">iF Design Award 2026</a> • <a href={whPdf} target="_blank">Project portfolio</a> • <a href="https://wrighthere.github.io/" target="_blank">Website</a></p>
+        </div>
+      </div>
+
+
+
+
       <div className="media-block">
         <div className="media-thumb">
           <iframe src="https://www.youtube.com/embed/zOz2XIO0hb8" title="CrossingOver" frameBorder="0" allowFullScreen />
@@ -20,7 +38,9 @@ export default function Projects(){
           <h3>Crossing Over: Innovation and Boundaries — KAIST Industrial Design Exhibition</h3>
           <p>📍 Seoul, Republic of Korea 🇰🇷</p>
           <p>Conducted exhibition at KAIST exploring how designers break and reframe boundaries to find new value and drive innovation.</p>
-          <p><a href="https://design.co.kr/young-student/105407" target="_blank">Design+ Online Archive</a> • <a href={wrighthereif} target="_blank">WrightHere portfolio</a></p>
+          <p><a href="https://design.co.kr/young-student/105407" target="_blank">Design+ Online Archive</a>
+           {/* • <a href={wrighthereif} target="_blank">WrightHere portfolio</a> */}
+           </p>
         </div>
       </div>
 
@@ -31,8 +51,8 @@ export default function Projects(){
         <div className="media-text">
           <h3>Evergrow — Investment Education Service</h3>
           <p><strong><em>Jaeryung Chung</em></strong>, Jamie Ashley Dee, Minseo Bang, Zofia Marciniak, Eunseo Oh, Hyeonjeong Im, Sunok Lee, Sangsu Lee. </p>
-          <p>iF Design Award winner. Evergrow empowers beginners to participate in stock management and investment, fostering financial literacy.</p>
-          <p><a href="https://ifdesign.com/en/winner-ranking/project/evergrow-investment-education-service/618273" target="_blank">iF Design Award</a> • <a href={evergrowPdf} target="_blank">Project portfolio</a></p>
+          <p>Evergrow empowers beginners to participate in stock management and investment, fostering financial literacy.</p>
+          <p><a href="https://ifdesign.com/en/winner-ranking/project/evergrow-investment-education-service/618273" target="_blank">iF Design Award 2024</a> • <a href={evergrowPdf} target="_blank">Project portfolio</a></p>
         </div>
       </div>
 

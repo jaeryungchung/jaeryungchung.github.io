@@ -4,6 +4,7 @@ import Profile from '../shared/Profile'
 import About from '../shared/About'
 import Video from '../shared/Video'
 import Publications from '../shared/Publications'
+import Conferences from '../shared/Conferences'
 import Projects from '../shared/Projects'
 import Business from '../shared/Business'
 import Education from '../shared/Education'
@@ -23,8 +24,9 @@ export default function Home(){
             <About/>
             {/* <Video/> */}
             <Publications/>
-            <Business/>
+            <Conferences/>
             <Projects/>
+            <Business/>
             <Education/>
             <Contact/>
             {/* <Footer/> */}
