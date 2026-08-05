@@ -42,8 +42,8 @@ export default function Header() {
         </button>
         <nav className={`nav ${open ? 'open' : ''}`}>
           <a href="#publications">Publication</a>
-          <a href="#business">Business</a>
           <a href="#projects">Projects</a>
+          <a href="#business">Business</a>
           <a href="#education">Education</a>
           <a href="#contact">Contact</a>
         </nav>
