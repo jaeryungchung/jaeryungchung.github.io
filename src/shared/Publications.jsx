@@ -16,9 +16,9 @@ export default function Publications(){
         <li className="pub-item">
           <img className="pub-img" src={whPoster} alt="WrightHere poster"/>
           <div className="pub-text">
-            <h3>ACM CHI 2025 Late-Breaking Work</h3>
+            <h3>WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment</h3>
             {/* <p>📍 Yokohama, Japan 🇯🇵</p> */}
-              <p><strong>WrightHere: Supporting Children's Creative Writing with AI-Infused Interactive 3D Environment</strong></p>
+              <h4>ACM CHI 2025 Late-Breaking Work</h4>
               <p><strong><em>Jaeryung Chung</em></strong>, Seon Gyeom Kim, Tak Yeon Lee. </p>
               
               <a href="https://dl.acm.org/doi/10.1145/3706599.3719932" target="_blank">DOI</a>
@@ -35,9 +35,9 @@ export default function Publications(){
         <li className="pub-item">
           <img className="pub-img" src={gcgImage} alt="GCG"/>
           <div className="pub-text">
-            <h3>IEEE VIS 2025 Short Paper</h3>
+            <h3>Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity</h3>
             {/* <p>📍 Vienna, Austria 🇦🇹 </p> */}
-            <p><strong>Grounded Generation of Embellished Bar Chart Ensuring Chart Integrity</strong></p>
+            <h4>IEEE VIS 2025 Short Paper</h4>
             <p>Seon Gyeom Kim, Jae Young Choi, Phillip Y. Lee, <strong><em>Jaeryung Chung</em></strong>, Ryan Rossi, Jihyung Kil, Eunyee Koh, and Tak Yeon Lee. </p>
             <p><a href="https://ieeexplore.ieee.org/document/11298836" target="_blank">DOI</a></p>
             <a href="https://groundedchartgeneration.github.io/" target="_blank">Project</a>
@@ -48,9 +48,9 @@ export default function Publications(){
         <li className="pub-item">
           <img className="pub-img" src={har} alt="har"/>
           <div className="pub-text">
-            <h3>IEEE PacificVis 2026</h3>
+            <h3>Evaluating Visual Prompts with Eye-Tracking Data for MLLM-Based Human Activity Recognition</h3>
             {/* <p>📍 Vancouver, Canada 🇨🇦</p> */}
-            <p><strong>Evaluating Visual Prompts with Eye-Tracking Data for MLLM-Based Human Activity Recognition</strong></p>
+            <h4>IEEE PacificVis 2026</h4>
             <p>Jae Young Choi, Seon Gyeom Kim, Hyungjun Yoon, Taeckyung Lee, Donggun Lee, <strong><em>Jaeryung Chung</em></strong>, Jihyung Kil, Ryan Rossi, Sung-Ju Lee, and Tak Yeon Lee.</p>
             <p><a href="https://ieeexplore.ieee.org/document/11559130" target="_blank">DOI</a></p>
             <a href="https://eyetrackingvisualprompts.github.io/" target="_blank">Project</a>

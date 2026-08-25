@@ -37,7 +37,7 @@ export default function Projects(){
         <div className="media-text">
           <h3>Crossing Over: Innovation and Boundaries — KAIST Industrial Design Exhibition</h3>
           <p>📍 Seoul, Republic of Korea 🇰🇷</p>
-          <p>Conducted exhibition at KAIST exploring how designers break and reframe boundaries to find new value and drive innovation.</p>
+          <p>Conducted exhibition at KAIST ID with WrightHere, exploring how designers break and reframe boundaries to drive innovation.</p>
           <p><a href="https://design.co.kr/young-student/105407" target="_blank">Design+ Online Archive</a>
            {/* • <a href={wrighthereif} target="_blank">WrightHere portfolio</a> */}
            </p>
@@ -63,7 +63,7 @@ export default function Projects(){
         <div className="media-text">
           <h3>SEAhab: Welcoming Virtual Rehab Community for Drug Users</h3>
           <p><strong><em>Jaeryung Chung</em></strong>, Donggun Lee, Sohwi Son, Maida Aizaz, Yujin Kwon, Tak Yeon Lee. </p>
-          <p>System design for accessible, personalized rehabilitation with community and real-time intervention.</p>
+          <p>Community system design for accessible, personalized rehabilitation with community and real-time intervention.</p>
           <p><a href={seahabPdf} target="_blank">Project portfolio</a></p>
         </div>
       </div>

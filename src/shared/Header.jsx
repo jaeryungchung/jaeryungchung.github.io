@@ -35,7 +35,7 @@ export default function Header() {
           <a href="/">
             <img src={jaeryungjungImage} alt="logo" className="logo" />
           </a>
-          <a href="/" style={{ fontFamily: 'Instrument Serif', fontSize: 18, textDecoration: 'none', color: 'inherit' }}>Jaeryung Chung</a>
+          <a href="/" className="brand-link">Jaeryung Chung</a>
         </div>
         <button className="nav-toggle" onClick={handleToggleMenu} aria-label="Toggle navigation">
           ☰

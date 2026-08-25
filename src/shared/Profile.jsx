@@ -66,13 +66,11 @@ export default function Profile(){
           </text>
         </svg>
       </div>
-      <h2 style={{fontFamily:'Instrument Serif'}}>Jaeryung Chung</h2>
-      <p style={{fontFamily:'IBM Plex Mono'}}>
+      <h2>Jaeryung Chung</h2>
+      <p>
         Seize the Moment,
         <span className="desktop-break"> Never Miss the Fun</span>
       </p>
-      {/* <p style={{fontSize: 15, paddingTop:30, fontFamily:'Vina Sans'}}>M.S. Industrial Design, KAIST</p> */}
-      {/* <p style={{fontSize: 15, fontFamily:'Vina Sans'}}>B.S. Industrial Design & School of Computing, KAIST</p> */}
     </div>
   )
 }

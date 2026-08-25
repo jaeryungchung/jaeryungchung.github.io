@@ -1,8 +1,12 @@
 import React from 'react';
 
 import siggraphPhoto from '../assets/siggraph-photo-3.jpeg'
-import ubicompPhoto from '../assets/ubicomp-photo.jpg'
+import ubicompPhoto from '../assets/ubicomp-photo-169.jpg'
 import ahs from '../assets/ahs-1.jpeg'
+import chiphoto from '../assets/chiphoto2.jpg'
+import visphoto from '../assets/visphoto.jpg'
+import folphoto from '../assets/fol2.jpeg'
+import icmlphoto from '../assets/icml.jpeg'
 
 
 export default function Conferences() {
@@ -10,6 +14,15 @@ export default function Conferences() {
     <section className="section" id="conferences">
       <h2>Attended Conferences</h2>
       <ul className="pub-list">
+
+        <li className="pub-item">
+          <img className="pub-img" src={chiphoto} alt="CHI2025"/>
+          <div className="pub-text">
+            <h3>ACM CHI 2025</h3>
+            <p>📍 Yokohama, Japan 🇯🇵</p>
+            <p style={{marginTop:20}}>✨ My very first conference AND my first poster presentation at CHI! Great to connect with other researchers, sharing my work and learning from theirs.</p>
+          </div>
+        </li>
 
         <li className="pub-item">
           <img className="pub-img" src={siggraphPhoto} alt="SIGGRAPH"/>
@@ -32,6 +45,15 @@ export default function Conferences() {
         </li>
 
         <li className="pub-item">
+          <img className="pub-img" src={visphoto} alt="VIS"/>
+          <div className="pub-text">
+            <h3>IEEE VIS 2025</h3>
+            <p>📍 Vienna, Austria 🇦🇹</p>
+            <p style={{marginTop:20}}>✨ This conference opportunity made me want to publish my own research paper so that I can present and also engage in real Q&A sessions with other researchers.</p>
+          </div>
+        </li>
+
+        <li className="pub-item">
           <img className="pub-img" src={ahs} alt="Augmented Humans conference"/>
           <div className="pub-text">
             <h3>ACM Augmented Humans International Conference 2026</h3>
@@ -41,6 +63,25 @@ export default function Conferences() {
           </div>
         </li>
 
+        <li className="pub-item">
+          <img className="pub-img" src={folphoto} alt="Festival of Learning"/>
+          <div className="pub-text">
+            <h3>Festival of Learning 2026 (Workshop Only)</h3>
+            <p>📍 Seoul, South Korea 🇰🇷 </p>
+            {/* <a href="https://festival-of-learning-2026.info/" target="_blank" rel="noopener">🔗 FoL</a> */}
+            <p style={{marginTop:20}}>✨ With my interest in creativity support for children, I naturally was drawn to learning and education. While supporting creativity was different from learning, I was able to find a lot of common ground and inspiration. It was a great opportunity to learn from experts in the field and to connect with peers who share similar interests.</p>
+          </div>
+        </li>
+
+        <li className="pub-item">
+          <img className="pub-img" src={icmlphoto} alt="ICML"/>
+          <div className="pub-text">
+            <h3>ICML 2026 (Workshop Only)</h3>
+            <p>📍 Seoul, South Korea 🇰🇷 </p>
+            {/* <a href="https://icml.cc/virtual/2026/events/workshop" target="_blank" rel="noopener">🔗 ICML</a> */}
+            <p style={{marginTop:20}}>✨ I was there mainly for the workshop 'Workshop on Human-AI Co-Creativity: Advances, Opportunities, and Challenges' and for the poster sessions (massive!). Felt that HCI community and machine learning community really compensate for each other. And I had the earge to develop my technical skills for better research.</p>
+          </div>
+        </li>
 
         </ul>
     </section>
