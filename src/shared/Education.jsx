@@ -14,7 +14,7 @@ export default function Education() {
       <div className="education-item">
         <h3>Politecnico di Milano 🇮🇹</h3>
         <p><strong>Exchange Student, Master's degree</strong></p>
-        <p>2023 Spring</p>
+        <p>2023 Spring (6 months)</p>
       </div>
 
       <div className="education-item">
