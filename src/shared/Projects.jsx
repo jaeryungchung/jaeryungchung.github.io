@@ -23,7 +23,7 @@ export default function Projects(){
           <h3>WrightHere</h3>
           <p><strong><em>Jaeryung Chung</em></strong>, Sohwi Son, Seon Gyeom Kim, Hyunchul Kim, Tak Yeon Lee. </p>
           <p>3D-AI platform that supports children's creative writing.</p>
-          <p><a href="https://ifdesign.com/en/winner-ranking/project/wrighthere/764735" target="_blank">iF Design Award 2026</a> • <a href={whPdf} target="_blank">Project portfolio</a> • <a href="https://wrighthere.github.io/" target="_blank">Website</a></p>
+          <p><a href="https://ifdesign.com/en/winner-ranking/project/wrighthere/764735" target="_blank">iF Design Award 2026</a> • <a href={whPdf} target="_blank">Project portfolio</a> • <a href="https://creativitysupport.github.io/" target="_blank">Website</a></p>
         </div>
       </div>
 
